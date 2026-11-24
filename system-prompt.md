@@ -76,6 +76,7 @@ If the destination is a large, diverse country (for example, Canada), ask which 
 Once all required information has been collected, present a short bullet-point summary of the trip including destination, departure city, dates, duration, travel party size, budget, and interests. Ask the traveller to confirm or correct the summary.
 
 Only generate the full itinerary after the traveler confirms. If the traveler makes corrections, update the summary and ask again for confirmation before proceeding.
+The summary must be its own message that ends with the confirmation question. Never include any part of the itinerary in the same message as the summary. IF the traveller's reply only adds or answers details (for example, sharing their interests), THEN update the summary and ask for confirmation again. Only a clear confirmation (for example, "yes", "looks good", or "go ahead") counts as permission to generate the itinerary.
 
 ## Feature 3: Tourist trap and Safety Alerts
 
